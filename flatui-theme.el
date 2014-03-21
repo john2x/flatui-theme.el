@@ -26,7 +26,7 @@
 
 ;;; Credits:
 
-;; This theme is based on zenburn-theme.el by Bozhidar Batsov
+;; This theme was modified from zenburn-theme.el by Bozhidar Batsov
 ;; https://github.com/bbatsov/zenburn-emacs
 
 ;;; Code:
@@ -37,7 +37,7 @@
 
 (defvar flatui-colors-alist
   '(("clouds"          . "#ecf0f1")
-    ("silver"          . "#e5eaf0")
+    ("silver"          . "#dfe4ea")
     ("concrete"        . "#95a5a6")
     ("asbestos"        . "#7f8c8d")
     ("wet-asphalt"     . "#34495e")
@@ -50,13 +50,13 @@
     ("nephritis"       . "#27ae60")
 
     ("peter-river"     . "#3498db")
-    ("belize-hole"     . "#2980b9")
+    ("belize-hole"     . "#0a74b9")
 
     ("amethyst"        . "#9b59b6")
     ("wisteria"        . "#8e44ad")
 
     ("sun-flower"      . "#f1c40f")
-    ("orange"          . "#f39c12")
+    ("orange"          . "#d98c10")
 
     ("carrot"          . "#e67e22")
     ("pumpkin"         . "#d35400")
@@ -497,7 +497,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(which-func ((t (:foreground ,wisteria :background ,silver))))
 ;;;;; yascroll
    `(yascroll:thumb-text-area ((t (:background ,silver))))
-   `(yascroll:thumb-fringe ((t (:background ,silver :foreground ,peter-river))))
+   `(yascroll:thumb-fringe ((t (:background ,silver :foreground ,sun-flower))))
    ))
 
 ;;; Theme Variables
