@@ -8,9 +8,15 @@ Only GUI Emacs supported at the moment.
 
 # Install
 
-Place in your `.emacs.d/themes` directory.
+Place `flatui-theme.el` in your `themes` directory (usually `~/.emacs.d/themes`).
+
+Also available in [MELPA][melpa]. `M-x package-install flatui-theme`
+
+[melpa]: http://melpa.milkbox.net/#/flatui-theme
 
 # Screenshots
+
+**PS** Might be out of date.
 
 ### Emacs Lisp
 ![elisp](https://raw.githubusercontent.com/john2x/flatui-theme.el/master/screenshots/elisp.png)
