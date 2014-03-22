@@ -4,7 +4,7 @@
 
 ;; Author: John Louis Del Rosario <john2x@gmail.com>
 ;; URL: https://github.com/john2x/flatui-theme.el
-;; Version: 0.1
+;; Version: 0.2
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -49,7 +49,7 @@
     ("emerald"         . "#2ecc71")
     ("nephritis"       . "#27ae60")
 
-    ("peter-river"     . "#3498db")
+    ("peter-river"     . "#2492db")
     ("belize-hole"     . "#0a74b9")
 
     ("amethyst"        . "#9b59b6")
@@ -117,31 +117,31 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(grep-match-face ((t (:foreground ,sun-flower :weight bold))))
    `(match ((t (:background ,turquoise :foreground ,wet-asphalt))))
 ;; ;;;;; isearch
-   `(isearch ((t (:foreground ,clouds :weight bold :background ,turquoise))))
-   `(isearch-fail ((t (:foreground ,sun-flower :background ,alizarin))))
-   `(lazy-highlight ((t (:foreground ,sun-flower :weight bold :background ,turquoise))))
+   `(isearch ((t (:foreground ,clouds :weight bold :background ,alizarin))))
+   `(isearch-fail ((t (:foreground ,sun-flower :weight bold :background ,pomegranate))))
+   `(lazy-highlight ((t (:foreground ,clouds :weight bold :background ,sun-flower))))
 
    `(menu ((t (:foreground ,midnight-blue :background ,silver))))
-   `(minibuffer-prompt ((t (:foreground ,wet-asphalt))))
-   `(region ((,class (:background ,turquoise :foreground ,clouds))
+   `(minibuffer-prompt ((t (:foreground ,wet-asphalt :weight bold))))
+   `(region ((,class (:background ,sun-flower :foreground ,midnight-blue))
              (t :inverse-video t)))
    `(secondary-selection ((t (:background ,turquoise))))
    `(trailing-whitespace ((t (:background ,alizarin))))
    `(vertical-border ((t (:foreground ,silver))))
 ;;;;; font lock
-   `(font-lock-builtin-face ((t (:foreground ,green-sea :weight bold))))
-   `(font-lock-comment-face ((t (:foreground ,concrete))))
+   `(font-lock-builtin-face ((t (:foreground ,green-sea))))
+   `(font-lock-comment-face ((t (:foreground ,asbestos))))
    `(font-lock-comment-delimiter-face ((t (:foreground ,concrete))))
-   `(font-lock-constant-face ((t (:foreground ,peter-river :weight bold))))
+   `(font-lock-constant-face ((t (:foreground ,carrot))))
    `(font-lock-doc-face ((t (:foreground ,asbestos))))
    `(font-lock-function-name-face ((t (:foreground ,wet-asphalt :weight bold))))
    `(font-lock-keyword-face ((t (:foreground ,orange))))
-   `(font-lock-negation-char-face ((t (:foreground ,pomegranate :weight bold))))
-   `(font-lock-preprocessor-face ((t (:foreground ,pumpkin))))
+   `(font-lock-negation-char-face ((t (:foreground ,peter-river :weight bold))))
+   `(font-lock-preprocessor-face ((t (:foreground ,alizarin :weight bold))))
    `(font-lock-regexp-grouping-construct ((t (:foreground ,orange :weight bold))))
-   `(font-lock-regexp-grouping-backslash ((t (:foreground ,belize-hole :weight bold))))
+   `(font-lock-regexp-grouping-backslash ((t (:foreground ,amethyst :weight bold))))
    `(font-lock-string-face ((t (:foreground ,belize-hole))))
-   `(font-lock-type-face ((t (:foreground ,pumpkin))))
+   `(font-lock-type-face ((t (:foreground ,peter-river))))
    `(font-lock-variable-name-face ((t (:foreground ,wisteria))))
    `(font-lock-warning-face ((t (:foreground ,pumpkin :weight bold))))
 
@@ -171,14 +171,15 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(clojure-test-error-face ((t (:foreground ,alizarin :weight bold :underline t))))
    `(clojure-test-success-face ((t (:foreground ,emerald :weight bold :underline t))))
 ;;;;; diff
-   `(diff-added ((,class (:foreground ,nephritis :background nil))
-                 (t (:foreground ,nephritis :background nil))))
+   `(diff-added ((,class (:foreground ,nephritis :background ,clouds))
+                 (t (:foreground ,nephritis :background ,clouds))))
    `(diff-changed ((t (:foreground ,carrot))))
-   `(diff-removed ((,class (:foreground ,alizarin :background nil))
-                   (t (:foreground ,alizarin :background nil))))
-   `(diff-refine-added ((t :inherit diff-added :weight bold)))
+   `(diff-context ((t (:foreground ,concrete))))
+   `(diff-removed ((,class (:foreground ,alizarin :background ,clouds))
+                   (t (:foreground ,alizarin :background ,clouds))))
+   `(diff-refine-added ((t :inherit diff-added :background ,emerald :weight bold)))
    `(diff-refine-change ((t :inherit diff-changed :weight bold)))
-   `(diff-refine-removed ((t :inherit diff-removed :weight bold)))
+   `(diff-refine-removed ((t :inherit diff-removed :background ,pomegranate :weight bold)))
    `(diff-header ((,class (:foreground ,midnight-blue :weight bold))
                   (t (:foreground ,midnight-blue :weight bold))))
    `(diff-file-header
@@ -352,20 +353,25 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(linum ((t (:foreground ,wet-asphalt :background ,silver))))
 ;;;;; magit
    `(magit-section-title ((t (:foreground ,midnight-blue :weight bold))))
-   `(magit-branch ((t (:foreground ,clouds :background ,turquoise
+   `(magit-branch ((t (:foreground ,midnight-blue :background ,turquoise
+                                   :weight bold
                                    :box (:line-width 1 :color ,green-sea)))))
    `(magit-item-highlight ((t (:background ,silver))))
    `(magit-log-author ((t (:foreground ,belize-hole))))
    `(magit-log-sha1 ((t (:foreground ,carrot :weight bold))))
    `(magit-tag ((t (:foreground ,wisteria :weight bold))))
-   `(magit-log-head-label-head ((t (:foreground ,clouds :background ,turquoise
+   `(magit-log-head-label-head ((t (:foreground ,midnight-blue :background ,turquoise
+                                                :weight bold
                                                 :box (:line-width 1 :color ,green-sea)))))
-   `(magit-log-head-label-local ((t (:foreground ,clouds :background ,turquoise
+   `(magit-log-head-label-local ((t (:foreground ,midnight-blue :background ,turquoise
+                                                 :weight bold
                                                 :box (:line-width 1 :color ,green-sea)))))
-   `(magit-log-head-label-default ((t (:foreground ,clouds :background ,turquoise
+   `(magit-log-head-label-default ((t (:foreground ,midnight-blue :background ,turquoise
+                                                   :weight bold
                                                 :box (:line-width 1 :color ,green-sea)))))
-   `(magit-log-head-label-remote ((t (:foreground ,clouds :background ,peter-river
-                                                :box (:line-width 1 :color ,belize-hole)))))
+   `(magit-log-head-label-remote ((t (:foreground ,midnight-blue :background ,sun-flower
+                                                  :weight bold
+                                                :box (:line-width 1 :color ,orange)))))
    `(magit-log-head-label-tags ((t (:foreground ,wisteria :weight bold))))
 ;;;;; outline
    `(outline-1 ((t (:foreground ,green-sea))))
