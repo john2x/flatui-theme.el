@@ -189,6 +189,12 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(diff-hunk-header
      ((,class (:foreground ,wisteria :weight bold))
       (t (:foreground ,wisteria :weight bold))))
+
+;;;;; diff-hl
+   `(diff-hl-insert ((t (:foreground ,green-sea :background ,nephritis))))
+   `(diff-hl-delete ((t (:foreground ,pomegranate :background ,alizarin))))
+   `(diff-hl-change ((t (:foreground ,pumpkin :background ,carrot))))
+
 ;;;;; dired/dired+/dired-subtree
    `(diredp-display-msg ((t (:foreground ,belize-hole))))
    `(diredp-compressed-file-suffix ((t (:foreground ,amethyst))))

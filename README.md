@@ -41,6 +41,7 @@ Also available in [MELPA][melpa]. `M-x package-install flatui-theme`
 - smart-mode-line
 - web-mode
 - helm
+- diff-hl
 
 # License
 
