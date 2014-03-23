@@ -329,6 +329,25 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(guide-key/highlight-command-face ((t (:foreground ,peter-river))))
    `(guide-key/key-face ((t (:foreground ,orange))))
    `(guide-key/prefix-command-face ((t (:foreground ,wisteria))))
+
+;;;;; helm
+   `(helm-action ((t (:underline nil))))
+   `(helm-selection ((t (:background ,sun-flower :underline nil :weight bold))))
+   `(helm-candidate-number ((t (:foreground ,turquoise))))
+   `(helm-source-header ((t (:foreground ,midnight-blue :weight bold))))
+   `(helm-visible-mark ((t (:foreground ,alizarin))))
+   `(helm-ff-directory ((t (:foreground ,peter-river))))
+   `(helm-ff-executable ((t (:foreground ,pumpkin))))
+   `(helm-ff-symlink ((t (:foreground ,clouds :background ,amethyst))))
+   `(helm-ff-prefix ((t (:foreground ,alizarin))))
+   `(helm-M-x-key ((t (:foreground ,sun-flower))))
+   `(helm-grep-file ((t (:foreground ,turquoise))))
+   `(helm-grep-lineno ((t (:foreground ,sun-flower))))
+   `(helm-grep-running ((t (:foreground ,alizarin))))
+   `(helm-grep-finish ((t (:foreground ,turquoise))))
+   `(helm-buffer-saved-out ((t (:foreground ,orange :background nil))))
+   `(helm-moccur-buffer ((t (:foreground ,sun-flower))))
+
 ;;;;; hl-line-mode
    `(hl-line-face ((,class (:background ,silver))
                    (t :weight bold)))
