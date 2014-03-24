@@ -30,6 +30,9 @@ Also available in [MELPA][melpa]. `M-x package-install flatui-theme`
 ### Erlang with search
 ![erlang](https://raw.githubusercontent.com/john2x/flatui-theme.el/master/screenshots/erlang-with-search.png)
 
+### Emacs Lisp with helm and diff-hl
+![helm](https://raw.githubusercontent.com/john2x/flatui-theme.el/master/screenshots/helm-m-x.png)
+
 ### And many more
 - magit
 - rainbow-parentheses
@@ -37,6 +40,8 @@ Also available in [MELPA][melpa]. `M-x package-install flatui-theme`
 - git-gutter
 - smart-mode-line
 - web-mode
+- helm
+- diff-hl
 
 # License
 
