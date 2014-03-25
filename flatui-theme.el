@@ -367,6 +367,8 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(ido-only-match ((t (:foreground ,carrot :weight bold))))
    `(ido-subdir ((t (:foreground ,orange))))
    `(ido-indicator ((t (:foreground ,sun-flower :background ,pumpkin))))
+;;;;; indent-guide
+   `(indent-guide-face ((t (:foreground ,concrete))))
 ;;;;; js2-mode
    `(js2-warning ((t (:underline ,pumpkin))))
    `(js2-error ((t (:foreground ,alizarin :weight bold))))
