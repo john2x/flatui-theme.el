@@ -380,7 +380,8 @@ Also bind `class' to ((class color) (min-colors 89))."
 ;; ;;;;; linum-mode
    `(linum ((t (:foreground ,wet-asphalt :background ,silver))))
 ;;;;; magit
-   `(magit-section-title ((t (:foreground ,midnight-blue :weight bold))))
+   `(magit-header ((t (:foreground ,midnight-blue :background nil :weight bold))))
+   `(magit-section-title ((t (:foreground ,midnight-blue :background nil :weight bold))))
    `(magit-branch ((t (:foreground ,midnight-blue :background ,turquoise
                                    :weight bold
                                    :box (:line-width 1 :color ,green-sea)))))
@@ -544,8 +545,8 @@ Also bind `class' to ((class color) (min-colors 89))."
 ;;;;; fill-column-indicator
    `(fci-rule-color ,sun-flower)
 ;;;;; highlight-parentheses
-   `(hl-paren-colors '(,clouds ,clouds ,clouds))
-   `(hl-paren-background-colors '(,peter-river ,amethyst ,sun-flower))
+   `(hl-paren-colors '(,clouds ,clouds ,pomegranate))
+   `(hl-paren-background-colors '(,peter-river ,concrete nil))
 ;;;;; sml-mode-line
    `(sml/active-foreground-color ,clouds)
    `(sml/active-background-color ,wet-asphalt)
