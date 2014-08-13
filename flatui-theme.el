@@ -442,8 +442,10 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(sml/folder ((t (:foreground ,carrot))))
    `(sml/prefix ((t (:foreground ,carrot))))
    `(sml/read-only ((t (:foreground ,wisteria))))
-   `(sml/modified ((t (:foreground ,pomegranate :weight bold))))
-   `(sml/outside-modified ((t (:foreground ,pomegranate :weight bold))))
+   `(sml/modified ((t (:background ,pomegranate,
+                       :foreground ,sun-flower :weight bold))))
+   `(sml/outside-modified ((t (:background ,pomegranate
+                               :foreground ,sun-flower :weight bold))))
    `(sml/line-number ((t (:foreground ,turquoise :weight bold))))
    `(sml/col-number ((t (:foreground ,turquoise :weight bold))))
    `(sml/vc ((t (:foreground ,peter-river :weight bold))))
