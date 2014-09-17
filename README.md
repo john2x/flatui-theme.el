@@ -18,17 +18,7 @@ Also available in [MELPA][melpa]. `M-x package-install flatui-theme`
 
 **PS** Might be out of date.
 
-### Emacs Lisp
-![elisp](https://raw.githubusercontent.com/john2x/flatui-theme.el/master/screenshots/elisp.png)
-
-### Python with region highlight
 ![python](https://raw.githubusercontent.com/john2x/flatui-theme.el/master/screenshots/python-with-highlight.png)
-
-### Clojure with Projectile
-![clojure](https://github.com/john2x/flatui-theme.el/raw/master/screenshots/clojure-with-projectile.png)
-
-### Erlang with search
-![erlang](https://raw.githubusercontent.com/john2x/flatui-theme.el/master/screenshots/erlang-with-search.png)
 
 ### And many more
 - magit

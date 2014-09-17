@@ -147,6 +147,9 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(font-lock-warning-face ((t (:foreground ,pumpkin :weight bold))))
 
    `(c-annotation-face ((t (:inherit font-lock-constant-face))))
+;;;;; ledger
+   `(ledger-font-directive-face ((t (:foreground ,nephritis))))
+   `(ledger-font-periodic-xact-face ((t (:inherit ledger-font-directive-face))))
 ;;;; Third-party
 ;;;;; ace-jump
    `(ace-jump-face-background
@@ -442,8 +445,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(sml/folder ((t (:foreground ,carrot))))
    `(sml/prefix ((t (:foreground ,carrot))))
    `(sml/read-only ((t (:foreground ,wisteria))))
-   `(sml/modified ((t (:background ,pomegranate,
-                       :foreground ,sun-flower :weight bold))))
+   `(sml/modified ((t (:foreground ,pumpkin :weight bold))))
    `(sml/outside-modified ((t (:background ,pomegranate
                                :foreground ,sun-flower :weight bold))))
    `(sml/line-number ((t (:foreground ,turquoise :weight bold))))
