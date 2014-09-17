@@ -30,7 +30,7 @@ Also available in [MELPA][melpa]. `M-x package-install flatui-theme`
 - [helm][helm-m-x]
 - [diff-hl][helm-m-x]
 
-[helm-m-x]: https://raw.githubusercontent.com/john2x/flatui-theme.el/master/screenshots/helm-m-x.png
+[helm-m-x]: https://raw.githubusercontent.com/john2x/flatui-theme.el/master/screenshots/emacs-lisp-helm-m-x.png
 
 # License
 
