@@ -120,7 +120,7 @@ Also bind `class' to ((class color) (min-colors 89))."
 ;; ;;;;; isearch
    `(isearch ((t (:foreground ,clouds :weight bold :background ,alizarin))))
    `(isearch-fail ((t (:foreground ,sun-flower :weight bold :background ,pomegranate))))
-   `(lazy-highlight ((t (:foreground ,clouds :weight bold :background ,sun-flower))))
+   `(lazy-highlight ((t (:foreground ,wet-asphalt :weight bold :background ,sun-flower))))
 
    `(menu ((t (:foreground ,midnight-blue :background ,silver))))
    `(minibuffer-prompt ((t (:foreground ,wet-asphalt :weight bold))))
@@ -275,6 +275,8 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(eshell-ls-product ((t (:inherit font-lock-doc-face))))
    `(eshell-ls-special ((t (:foreground ,sun-flower :weight bold))))
    `(eshell-ls-symlink ((t (:foreground ,clouds :background ,amethyst))))
+;;;;; evil
+   `(evil-search-highlight-persist-highlight-face ((t (:inherit lazy-highlight))))
 ;;;;; flx
    `(flx-highlight-face ((t (:foreground ,orange :weight bold))))
 ;;;;; flycheck
