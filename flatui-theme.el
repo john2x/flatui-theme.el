@@ -359,6 +359,9 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(helm-buffer-saved-out ((t (:foreground ,orange :background nil))))
    `(helm-moccur-buffer ((t (:foreground ,sun-flower))))
 
+;;;;; highlight-symbol
+   `(highlight-symbol-face ((t (:background "gray88" :underline t))))
+
 ;;;;; hl-line-mode
    `(hl-line-face ((,class (:background ,silver))
                    (t :weight bold)))
