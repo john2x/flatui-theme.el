@@ -93,7 +93,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(header-line ((t (:foreground ,green-sea
                                   :background ,wet-asphalt
                                   :box (:line-width -1 :style released-button)))))
-   `(highlight ((t (:background ,turquoise))))
+   `(highlight ((t (:background ,silver))))
    `(success ((t (:foreground ,nephritis :weight bold))))
    `(warning ((t (:foreground ,pumpkin :weight bold))))
 ;;;;; compilation
@@ -150,6 +150,7 @@ Also bind `class' to ((class color) (min-colors 89))."
 ;;;;; ledger
    `(ledger-font-directive-face ((t (:foreground ,nephritis))))
    `(ledger-font-periodic-xact-face ((t (:inherit ledger-font-directive-face))))
+   `(ledger-occur-xact-face ((t (:background ,silver))))
 ;;;; Third-party
 ;;;;; ace-jump
    `(ace-jump-face-background
