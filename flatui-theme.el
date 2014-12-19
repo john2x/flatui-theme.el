@@ -431,6 +431,9 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(rainbow-delimiters-depth-10-face ((t (:foreground ,nephritis))))
    `(rainbow-delimiters-depth-11-face ((t (:foreground ,belize-hole))))
    `(rainbow-delimiters-depth-12-face ((t (:foreground ,wisteria))))
+;;;;; structured-haskell-mode
+   `(shm-current-face ((t (:background ,silver))))
+   `(shm-quarantine-face ((t (:inherit font-lock-error))))
 ;;;;; show-paren
    `(show-paren-mismatch ((t (:foreground ,sun-flower :background ,pomegranate :weight bold))))
    `(show-paren-match ((t (:foreground ,clouds :background ,alizarin :weight bold))))
