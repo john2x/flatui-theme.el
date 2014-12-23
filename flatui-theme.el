@@ -352,13 +352,13 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(helm-ff-executable ((t (:foreground ,pumpkin))))
    `(helm-ff-symlink ((t (:foreground ,clouds :background ,amethyst))))
    `(helm-ff-prefix ((t (:foreground ,alizarin))))
-   `(helm-M-x-key ((t (:foreground ,sun-flower))))
+   `(helm-M-x-key ((t (:foreground ,asbestos))))
    `(helm-grep-file ((t (:foreground ,turquoise))))
-   `(helm-grep-lineno ((t (:foreground ,sun-flower))))
+   `(helm-grep-lineno ((t (:foreground ,asbestos))))
    `(helm-grep-running ((t (:foreground ,alizarin))))
    `(helm-grep-finish ((t (:foreground ,turquoise))))
    `(helm-buffer-saved-out ((t (:foreground ,orange :background nil))))
-   `(helm-moccur-buffer ((t (:foreground ,sun-flower))))
+   `(helm-moccur-buffer ((t (:foreground ,asbestos))))
 
 ;;;;; highlight-symbol
    `(highlight-symbol-face ((t (:background "gray88" :underline t))))
