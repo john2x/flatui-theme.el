@@ -526,10 +526,12 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(web-mode-variable-name-face ((t (:inherit ,font-lock-variable-name-face))))
    `(web-mode-server-background-face ((t (:background ,clouds))))
    `(web-mode-server-comment-face ((t (:inherit web-mode-comment-face))))
-   `(web-mode-server-string-face ((t (:inherit web-mode-string-face))))
+   `(web-mode-server-string-face ((t (:foreground ,alizarin))))
    `(web-mode-symbol-face ((t (:inherit font-lock-constant-face))))
    `(web-mode-warning-face ((t (:inherit font-lock-warning-face))))
    `(web-mode-whitespaces-face ((t (:background ,alizarin))))
+   `(web-mode-block-face ((t (:background "gray88"))))
+   `(web-mode-current-element-highlight-face ((t (:background ,sun-flower))))
 ;;;;; whitespace-mode
    `(whitespace-space ((t (:background ,clouds :foreground ,sun-flower))))
    `(whitespace-hspace ((t (:background ,clouds :foreground ,sun-flower))))
