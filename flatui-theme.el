@@ -441,7 +441,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(mode-line
      ((,class (:inverse-video unspecified
                               :underline unspecified
-                              :foreground ,belize-hole
+                              :foreground ,peter-river
                               :background ,wet-asphalt
                               :weight bold
                               :box (:line-width 1
