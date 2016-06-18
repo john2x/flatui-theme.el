@@ -467,7 +467,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(shm-quarantine-face ((t (:inherit font-lock-error))))
 ;;;;; show-paren
    `(show-paren-mismatch ((t (:foreground ,sun-flower :background ,pomegranate :weight bold))))
-   `(show-paren-match ((t (:foreground ,clouds :background ,alizarin :weight bold))))
+   `(show-paren-match ((t (:foreground ,clouds :background ,amethyst :weight bold))))
 ;;;;; mode-line/sml-mode-line
    `(mode-line
      ((,class (:foreground ,clouds
