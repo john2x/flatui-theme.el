@@ -470,16 +470,25 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(show-paren-match ((t (:foreground ,clouds :background ,amethyst :weight bold))))
 ;;;;; mode-line/sml-mode-line
    `(mode-line
-     ((,class (:foreground ,clouds
-                           :background ,midnight-blue
-                           :box (:line-width -1 :style released-button)))
+     ((,class (:inverse-video unspecified
+                              :underline unspecified
+                              :foreground ,peter-river
+                              :background ,wet-asphalt
+                              :weight bold
+                              :box (:line-width 1
+                                                :color ,wet-asphalt
+                                                :style unspecified)))
       (t :inverse-video t)))
    `(mode-line-inactive
-     ((t (:foreground ,wet-asphalt
-                      :background ,silver
-                      :box (:line-width -1 :style released-button)))))
+     ((t (:inverse-video unspecified
+                         :underline unspecified
+                         :foreground ,peter-river
+                         :background ,silver
+                         :box (:line-width 1
+                                           :color ,silver
+                                           :style unspecified)))))
    `(mode-line-buffer-id ((t (:foreground ,alizarin :weight bold))))
-   `(sml/global ((t (:foreground ,clouds))))
+   `(sml/global ((t (:foreground ,concrete))))
    `(sml/modes ((t (:foreground ,nephritis))))
    `(sml/filename ((t (:foreground ,nephritis))))
    `(sml/folder ((t (:foreground ,carrot))))
